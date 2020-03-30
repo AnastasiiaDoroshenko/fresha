@@ -60,6 +60,12 @@ table {
   max-width: 1440px;
   margin: 0 auto; }
 
+a {
+  color: #2b72bd;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 header {
   background-color: #101928; }
   header .nav_wrapper {
@@ -2112,6 +2118,13 @@ main {
       text-align: center;
       color: #878c93;
       padding-bottom: 10px; }
+    main .sign_up_wrapper.log_in_wrapper {
+      max-width: 456px; }
+      main .sign_up_wrapper.log_in_wrapper .sign_up .sign_up_field_wrapper {
+        width: 100%; }
+        main .sign_up_wrapper.log_in_wrapper .sign_up .sign_up_field_wrapper .password_reset_link {
+          display: block;
+          margin-top: 4px; }
 
 footer .footer_menu {
   padding: 48px 80px 16px;
@@ -2965,11 +2978,6 @@ footer .copyright_wrapper {
       main .sign_up_form_container .sign_up_form_wrapper .sign_up_form .termsOfService {
         margin-left: 0;
         margin-right: 0; }
-        main .sign_up_form_container .sign_up_form_wrapper .sign_up_form .termsOfService a {
-          color: #2b72bd;
-          text-decoration: none; }
-          main .sign_up_form_container .sign_up_form_wrapper .sign_up_form .termsOfService a:hover {
-            text-decoration: underline; }
       main .sign_up_form_container .sign_up_form_wrapper .sign_up_form .client_name {
         -webkit-flex-wrap: wrap;
         -moz-flex-wrap: wrap;
